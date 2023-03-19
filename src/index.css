@@ -1,0 +1,28 @@
+:root {
+  --bb-primary-color: rgb(217, 85, 80);
+  --bb-color-blue: rgb(76, 145, 149);
+  --bb-color-dark-blue: rgb(69, 124, 163);
+  --bb-color-gray: rgb(85, 85, 85);
+  --bb-color-bg-white: rgba(255, 255, 255, 0.9);
+  --bb-color-bg-gray: rgb(185, 185, 185);
+  --bb-color-bg-dark-gray: rgba(255, 255, 255, 0.2);
+  --bb-color-bg-material-gray: #555;
+  --bb-color-bg-tab: rgba(0, 0, 0, 0.15);
+  --bb-color-bg-light-gray: rgba(255, 255, 255, 0.1);
+  --bb-color-bg-modal: rgba(0, 0, 0, 0.25);
+  --bb-color-bg-input-white: rgb(239, 239, 239);
+  --bb-color-bg-button: rgb(34, 34, 34);
+}
+html,
+body,
+#root,
+.App {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+::-webkit-scrollbar {
+  display: none;
+}

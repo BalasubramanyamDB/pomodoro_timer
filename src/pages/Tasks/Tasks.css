@@ -1,0 +1,36 @@
+.tasks-wrapper {
+  max-width: 50rem;
+  height: calc(100vh - 50px);
+  opacity: 0.9;
+  opacity: 0.9;
+}
+.tasks-container {
+  width: 100%;
+  background-color: var(--bb-color-bg-light-gray);
+  height: 70%;
+  border-radius: var(--radius-sm);
+}
+
+@media screen and (max-width: 768px) {
+  .tasks- > h2 {
+    font-size: 2rem;
+  }
+  .tasks-wrapper > h3 {
+    font-size: 1.75rem;
+  }
+  .task-container {
+    height: 4rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .tasks-wrapper > h2 {
+    font-size: 1.75rem;
+  }
+  .tasks-wrapper > h3 {
+    font-size: 1.5rem;
+  }
+  .task-container {
+    height: 3rem;
+  }
+}

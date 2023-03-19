@@ -1,0 +1,32 @@
+::-webkit-scrollbar {
+  height: 5px;
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-white);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-dark-gray);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--bb-color-bg-material-gray);
+}
+
+.show-task {
+  overflow-y: auto;
+  height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .showTask-title h2 {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .showTask-title h2 {
+    font-size: 1.75rem;
+  }
+}

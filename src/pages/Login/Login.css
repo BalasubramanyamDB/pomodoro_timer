@@ -1,0 +1,53 @@
+.login-wrapper {
+  border: 1px solid var(--bb-color-bg-dark-gray);
+  box-shadow: var(--card-box-shadow);
+  border-radius: var(--radius-sm);
+  min-width: 25rem;
+  padding-block: 5rem;
+}
+.form-input {
+  background-color: transparent;
+  border-radius: 5px;
+  outline: transparent;
+  border: 1px solid var(--bb-color-bg-dark-gray);
+  color: var(--color-white);
+}
+.btn-password-visibility {
+  position: absolute;
+  font-size: 1rem;
+  right: 1rem;
+  top: 12px;
+  color: var(--color-white);
+}
+.form-btn {
+  background-color: var(--bb-color-bg-dark-gray);
+  opacity: 0.9;
+  font-size: 1.2rem;
+}
+.form-btn-secondary {
+  background-color: transparent;
+  opacity: 0.9;
+  font-size: 1rem;
+  border: 1px solid var(--bb-color-bg-dark-gray);
+}
+::placeholder {
+  color: var(--color-white);
+  opacity: 0.6;
+  font-style: italic;
+  text-transform: initial;
+}
+.btn-redirect {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.btn-redirect:hover {
+  color: var(--color-black);
+}
+.btn-guest-login {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  cursor: pointer;
+}
+.btn-guest-login:hover {
+  color: var(--color-black);
+}

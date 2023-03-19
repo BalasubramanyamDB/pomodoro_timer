@@ -1,0 +1,16 @@
+.first-task-wrapper {
+  height: 100%;
+  width: 100%;
+}
+.btn-task-large {
+  font-size: 4rem;
+}
+
+@media screen and (max-width: 480px) {
+  .first-task-wrapper h2 {
+    font-size: 1.5rem;
+  }
+  .btn-task-large {
+    font-size: 3rem;
+  }
+}

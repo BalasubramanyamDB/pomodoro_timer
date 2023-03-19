@@ -1,0 +1,23 @@
+.wrapper {
+  min-height: 100vh;
+  min-width: 100vw;
+}
+.theme-default {
+  background-color: var(--bb-primary-color);
+  color: var(--bb-primary-color);
+}
+.theme-dark {
+  background-color: var(--bb-color-gray);
+  color: var(--bb-color-gray);
+}
+.theme-blue {
+  background-color: var(--bb-color-blue);
+  color: var(--bb-color-blue);
+}
+.theme-dark-blue {
+  background-color: var(--bb-color-dark-blue);
+  color: var(--bb-color-dark-blue);
+}
+.color-text-gray {
+  color: var(--bb-color-gray);
+}

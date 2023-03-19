@@ -1,0 +1,44 @@
+.landing-page-wrapper {
+  max-width: 50rem;
+  margin-top: 7.5rem;
+}
+.landing-page-container {
+  width: 100%;
+  height: auto;
+}
+.hero-img {
+  height: 40vh;
+}
+.img--responsive {
+  height: 100%;
+}
+.btn-hero {
+  background-color: var(--bb-color-bg-dark-gray);
+  opacity: 0.9;
+  font-size: 1.5rem;
+  border-radius: var(--radius-md);
+}
+
+@media screen and (max-width: 768px) {
+  .hero-img {
+    width: 20rem;
+  }
+  .landing-page-container h1 {
+    font-size: 2rem;
+  }
+  .btn-hero {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero-img {
+    width: 15rem;
+  }
+  .landing-page-container h1 {
+    font-size: 1.5rem;
+  }
+  .btn-hero {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,72 @@
+.task-container {
+  background-color: var(--bb-color-bg-white);
+  border-radius: var(--radius-md);
+  height: 5rem;
+  box-shadow: var(--card-box-shadow);
+}
+.task-checkbox {
+  appearance: none;
+  background-color: var(--bb-color-bg-gray);
+  border-radius: 3px;
+  color: inherit;
+  display: grid;
+  height: 1.8rem;
+  margin: 0;
+  place-content: center;
+  width: 1.8rem;
+}
+
+.task-checkbox::before {
+  content: "";
+  width: 0.65rem;
+  height: 0.65rem;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1rem 1rem var(--color-white);
+}
+
+.task-checkbox:checked::before {
+  transform: scale(1);
+  transform-origin: bottom left;
+  clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+}
+
+.isChecked-task {
+  background-color: var(--bb-color-bg-gray);
+}
+.isChecked {
+  background-color: var(--bb-color-gray);
+  color: var(--color-white);
+}
+.btn-task-cta {
+  color: var(--bb-color-gray);
+}
+.task-details-timer {
+  color: var(--bb-color-gray);
+  font-size: 1.15rem;
+}
+.task-details {
+  cursor: pointer;
+  flex-grow: 1;
+  height: 100%;
+}
+
+@media screen and (max-width: 480px) {
+  .task-title {
+    font-size: 1.25rem;
+    max-width: 6rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .task-details-timer {
+    font-size: 1rem;
+  }
+  .task-checkbox {
+    height: 1rem;
+    width: 1rem;
+  }
+  .btn-task-cta {
+    font-size: 1rem;
+  }
+}

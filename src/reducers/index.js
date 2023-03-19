@@ -1,0 +1,1 @@
+export { taskDetailsReducer } from "./taskDetailsReducer";
